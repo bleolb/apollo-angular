@@ -6,7 +6,7 @@ import { HttpLinkModule, HttpLink }from 'apollo-angular-link-http';
 import { InMemoryCache } from 'apollo-cache-inmemory'
 
 import { AppComponent } from './app.component';
-import { from } from 'rxjs';
+
 import { CrearCursoComponent } from './crear-curso/crear-curso.component';
 import { CrearNuevaPersonaComponent } from './crear-nueva-persona/crear-nueva-persona.component';
 import { VerPersonasycursosComponent } from './ver-personasycursos/ver-personasycursos.component';
